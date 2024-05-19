@@ -14,4 +14,3 @@ request.get(args[2], (err, res, body) => {
     });
   }
 });
-
