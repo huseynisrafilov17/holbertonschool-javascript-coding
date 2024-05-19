@@ -6,6 +6,6 @@ request.get(args[2], (err, res, body) => {
   if (err) {
     console.log(err);
   } else {
-    console.log(res.statusCode);
+    console.log(`code: ${res.statusCode}`);
   }
 });
